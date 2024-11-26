@@ -123,3 +123,73 @@ nav button:hover{
     color: #fff;
     background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
 }
+
+.sponsors{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.sponsors img{
+    width: 100%;
+}
+
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.postImage img{
+    width: 100%;
+}
+
+.postImage{
+    width: 40%;
+}
+
+.postText{
+    width: 45%;
+}
+
+.postText h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    color: rgba(3, 77, 130, 1);
+    width: 85%;
+}
+
+.postText p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.30000001192092896px;
+    color: rgba(144, 163, 180, 1);
+}
+
+.postText a{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.83px;
+    color: rgba(4, 170, 221, 1);
+}
+
+.iPhone{
+    position: absolute;
+}
+
+.arrow{
+    position: relative;
+    z-index: -2;
+}
