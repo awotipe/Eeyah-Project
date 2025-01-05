@@ -115,6 +115,7 @@ nav button:hover {
   background: #fff;
   border: none;
   cursor: pointer;
+  width: 25%;
   padding: 1rem 1.5rem;
   border-radius: 4px;
 }
@@ -145,6 +146,7 @@ nav button:hover {
   width: 80%;
   margin: auto;
 }
+
 
 .postImage img {
   width: 100%;
@@ -186,12 +188,18 @@ nav button:hover {
 }
 
 .iPhone {
+  width: 30%;
   position: absolute;
 }
 
 .arrow {
+  width: 100%;
   position: relative;
   z-index: -2;
+}
+
+.arrow img {
+  width: 100%;
 }
 
 .hashtag {
@@ -238,6 +246,10 @@ nav button:hover {
   border-radius: 8px;
   width: 100%;
   height: 300px;
+}
+
+.card img{
+  width: 30%;
 }
 
 .card:hover {
@@ -413,4 +425,374 @@ li {
   line-height: 20.83px;  
   color: rgba(239, 251, 255, 1);
   margin-top: 1rem;
+}
+
+.socials img{
+  width: 15%;
+}
+
+.copyright img{
+  width: 5%;
+}
+
+
+@media (max-width: 1024px){
+  .textSide h2 {
+    font-size: 44px;
+    width: 100%;
+  }
+
+  .textSide p {
+    width: 90%;
+    padding: 1rem 0;
+  }
+  
+  .curve img {
+    width: 25%;
+  }
+
+  .demo button {
+    font-size: 16px;
+    width: 55%;
+  }
+
+  .demo{
+    margin-bottom: 3rem;
+  }
+
+  .textSide{
+    width: 50%;
+  }
+
+  .imageSide{
+    width: 50%;
+  }
+
+  .iPhone{
+    width: 35%;
+  }
+  
+  .postText {
+    width: 50%;
+  }
+  
+  .postText h3 {
+    width: 100%;
+  }
+
+  .cardWrap {
+    gap: 1rem;
+    height: 60vh;
+  }
+  
+  .card {
+    width: 100%;
+    height: 300px;
+  }
+
+  .growthLeft h3 {
+    font-size: 26px;
+    width: 90%;
+  }
+
+  .growthLeft p {
+    font-size: 16px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px){
+  nav {
+    width: 100%;
+    align-items: center;
+  }
+
+  .navBar{
+    margin-bottom: -1rem;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  .textSide {
+    margin-left: 4rem;
+  }
+
+  .textSide h2 {
+    font-size: 34px;
+    width: 100%;
+  }
+
+  .textSide p {
+    font-size: 13px;
+  }
+  
+  .demo button {
+    font-size: 14px;
+    padding: 0.7rem 1rem;
+    width: 100%;
+  }
+
+  .postText h3 {
+    font-size: 28px;
+    line-height: 40px;
+    width: 100%;
+  }
+
+  .postText p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 1rem 0;
+  }
+
+  .topHashtag h2 {
+    font-size: 28px;
+    line-height: 52px;
+  }
+  
+  .topHashtag p {
+    font-size: 14px;
+    width: 60%;
+  }
+
+  .cardWrap {
+    gap: 1rem;
+    height: 80vh;
+  }
+  
+  .card {
+    padding: 1rem;
+  }
+
+  .card h5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .card p {
+    font-size: 13px;
+  }
+  
+  .footRight {
+    gap: 2rem;
+    width: 70%;
+  }
+  
+  li {
+    font-size: 12px;
+  }
+  
+  .footRight h4 {
+    font-size: 14px;
+  }
+  
+  .copyright p{
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 425px){
+  .logo img {
+    width: 100%;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .hero {
+    /* display: block; */
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+  }
+  
+  .textSide {
+    margin-left: 0rem;
+    width: 100%;
+  }
+
+  .imageSide{
+    width: 100%;
+  }
+
+  .sponsors {
+    width: 30%;
+    margin: 3rem auto;
+    display: block;
+  }
+
+  .sponsors img{
+    padding-bottom: 2rem;
+  }
+
+  .post {
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+  }
+  
+  .postImage {
+    width: 100%;
+  }
+  
+  .postText {
+    width: 100%;
+  }
+
+
+  .iPhone {
+    width: 80%;
+  }
+  
+  .postText h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55px;
+    width: 100%;
+  }
+  
+  .postText p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .topHashtag p {
+    font-size: 14px;
+    width: 70%;
+  }
+  
+  .cardWrap {
+    flex-direction: column;
+    width: 85%;
+    height: 60%;
+  }
+  
+  .card {
+    width: 100%;
+    height: 250px;
+  }
+
+  .card:hover {
+    transform: scale(1);
+    transition: 0.5s;
+    border-radius: 8px;
+  }
+
+  .card img{
+    width: 20%;
+    padding-left: 1rem;
+}
+
+.card h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+  padding: 1rem;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 1rem;
+}
+
+.growth {
+  flex-direction: column;
+}
+
+.growthLeft{
+  margin-bottom: 2rem;
+}
+
+.growthLeft h3 {
+  font-size: 36px;
+  width: 100%;
+}
+
+.growthLeft p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.growthText p {
+  font-size: 16px;
+  width: 100%;
+}
+
+.hart {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.hartImage{
+  width: 20%;
+}
+
+.hartName{
+  width: 65%;
+}
+
+.brand {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 5rem;
+  padding: 3rem;
+  flex-direction: column;
+}
+
+.customer {
+  margin: 2rem 0;
+}
+
+
+.footLogo img{
+  width: 20%;
+}
+
+.footWrap {
+  flex-direction: column;
+  width: 85%;
+}
+
+.footRight {
+  flex-direction: column;
+  width: 100%;
+}
+
+.footLeft {
+  width: 100%;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footRight h4 {
+  font-size: 18px;
+}
+
+.footLeft p{
+  font-size: 16px;
+  width: 80%;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.copyright p{
+  font-size: 16px;
+}
+
 }
